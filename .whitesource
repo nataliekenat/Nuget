@@ -1,3 +1,13 @@
 {
-  "settingsInheritedFrom": "nataliekenat/whitesource-config@main"
+  "settingsInheritedFrom": "nataliekenat/whitesource-config@main",
+"remediateSettings": {
+"workflowRules": {
+"enabled": true,
+"minVulnerabilitySeverity": "LOW"
+}
+},
+"pullRequestStatusSettings": {
+"displayMode": "diff",
+"vulnerablePullRequestStatus": "success"
+}
 }
